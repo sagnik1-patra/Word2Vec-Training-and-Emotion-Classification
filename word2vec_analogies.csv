@@ -1,0 +1,16 @@
+positive,negative,result,score
+"['king', 'woman']",['man'],hears,0.44854891300201416
+"['king', 'woman']",['man'],cheques,0.44238099455833435
+"['king', 'woman']",['man'],winterfell,0.43708527088165283
+"['king', 'woman']",['man'],grandmother,0.42738425731658936
+"['king', 'woman']",['man'],companionship,0.42549723386764526
+"['happy', 'sadness']",['joy'],cups,0.5775030255317688
+"['happy', 'sadness']",['joy'],cake,0.530678927898407
+"['happy', 'sadness']",['joy'],banished,0.5011031627655029
+"['happy', 'sadness']",['joy'],vegans,0.49866607785224915
+"['happy', 'sadness']",['joy'],tard,0.4929678440093994
+"['love', 'hate']",['like'],hated,0.4594747722148895
+"['love', 'hate']",['like'],prefer,0.44560953974723816
+"['love', 'hate']",['like'],hood,0.43264108896255493
+"['love', 'hate']",['like'],resurrection,0.42891204357147217
+"['love', 'hate']",['like'],loved,0.42732810974121094
