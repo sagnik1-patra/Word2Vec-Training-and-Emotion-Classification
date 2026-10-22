@@ -1,0 +1,125 @@
+{
+  "rows": 207805,
+  "labels": [
+    "admiration",
+    "amusement",
+    "anger",
+    "annoyance",
+    "approval",
+    "caring",
+    "confusion",
+    "curiosity",
+    "desire",
+    "disappointment",
+    "disapproval",
+    "disgust",
+    "embarrassment",
+    "excitement",
+    "fear",
+    "gratitude",
+    "grief",
+    "joy",
+    "love",
+    "nervousness",
+    "optimism",
+    "pride",
+    "realization",
+    "relief",
+    "remorse",
+    "sadness",
+    "surprise",
+    "neutral"
+  ],
+  "corpus": {
+    "source": "GoEmotions fallback (not independent domain corpus)",
+    "documents": 207805,
+    "tokens": 2783484,
+    "meets_10000_docs": true,
+    "meets_1m_tokens": true
+  },
+  "embedding_coverage": {
+    "GloVe": 96.65805483790317,
+    "Word2Vec": 99.75831319276607
+  },
+  "model_comparison": [
+    {
+      "model": "GloVe_Dense",
+      "accuracy": 0.1562160484246469,
+      "macro_f1": 0.13613574124715483,
+      "weighted_f1": 0.11878562301374233
+    },
+    {
+      "model": "GloVe_CNN",
+      "accuracy": 0.22272233431631228,
+      "macro_f1": 0.22716578900090686,
+      "weighted_f1": 0.19849581228570964
+    },
+    {
+      "model": "Word2Vec_Dense",
+      "accuracy": 0.17658699363650474,
+      "macro_f1": 0.1675433681011882,
+      "weighted_f1": 0.14260419223995938
+    },
+    {
+      "model": "GloVe_FineTuned",
+      "accuracy": 0.21507837963681514,
+      "macro_f1": 0.22580793706733757,
+      "weighted_f1": 0.17188106951619964
+    },
+    {
+      "model": "TFIDF_LogisticRegression",
+      "accuracy": 0.2907806922241192,
+      "macro_f1": 0.28638015884466644,
+      "weighted_f1": 0.2755165228913422
+    },
+    {
+      "model": "TFIDF_RandomForest",
+      "accuracy": 0.3456076361943194,
+      "macro_f1": 0.04870703349967868,
+      "weighted_f1": 0.1933920806777652
+    }
+  ],
+  "best_by_test_macro_f1": "TFIDF_LogisticRegression",
+  "multi_label": {
+    "threshold": 0.2,
+    "hamming_loss": 0.0502561905067439,
+    "micro_f1": 0.4087189787417602,
+    "macro_f1": 0.2654337280520508,
+    "weighted_f1": 0.3487037093109677,
+    "precision_at_1": 0.4333515167236328,
+    "recall_at_1": 0.3925783336162567,
+    "precision_at_3": 0.24290737509727478,
+    "recall_at_3": 0.6353283524513245,
+    "precision_at_5": 0.1745532900094986,
+    "recall_at_5": 0.7483066916465759
+  },
+  "graphs": [
+    "01_class_distribution.png",
+    "02_comment_length.png",
+    "03_label_counts.png",
+    "04_word2vec_hyperparameters.png",
+    "05_word2vec_tsne.png",
+    "06_embedding_coverage.png",
+    "GloVe_Dense_loss.png",
+    "GloVe_Dense_accuracy.png",
+    "GloVe_CNN_loss.png",
+    "GloVe_CNN_accuracy.png",
+    "Word2Vec_Dense_loss.png",
+    "Word2Vec_Dense_accuracy.png",
+    "GloVe_FineTuned_loss.png",
+    "GloVe_FineTuned_accuracy.png",
+    "07_model_accuracy.png",
+    "08_model_macro_f1.png",
+    "09_confusion_matrix.png",
+    "10_per_class_f1.png",
+    "11_confused_pairs.png",
+    "12_length_accuracy.png",
+    "13_glove_tsne.png",
+    "14_glove_pca_3d.png",
+    "15_emotion_centroids.png",
+    "16_emotion_similarity.png",
+    "17_multilabel_loss.png",
+    "18_frequency_vs_f1.png",
+    "19_lexical_richness.png"
+  ]
+}

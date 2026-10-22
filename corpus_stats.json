@@ -1,0 +1,7 @@
+{
+  "source": "GoEmotions fallback (not independent domain corpus)",
+  "documents": 207805,
+  "tokens": 2783484,
+  "meets_10000_docs": true,
+  "meets_1m_tokens": true
+}
