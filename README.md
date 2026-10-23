@@ -1,4 +1,4 @@
-# Word2Vec Training and Emotion Classification using GloVe
+# Word2Vec Training and Emotion Classification using GloVe 
 
 ## Overview
 GoEmotions NLP project comparing custom Word2Vec embeddings, pretrained GloVe, Dense/CNN classifiers, and TF-IDF baselines. Includes multi-label classification and embedding/error analysis.
